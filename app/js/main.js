@@ -46,7 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
             symbolRadius: 0,
             verticalAlign: 'top',
             x: 10,
-            itemMarginTop: -10
+            itemMarginTop: 0,
+            floating: true
         },
         xAxis: {
             labels: {
@@ -91,7 +92,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 legend: {
                     align: 'left',
-                    x: -18
+                    x: -18,
+                    floating: false
                 },
                 tooltip: {
                     enabled: false
